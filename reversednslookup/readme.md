@@ -1,1 +1,7 @@
+it is used to lookup dns host using socket progreamming it easy to use
+Usage:-  python .\dns.py -H filename (or) hostname
+
+Result: -
+('ec2-35-154-238-20.ap-south-1.compute.amazonaws.com', [], ['35.154.238.20']) and 35.154.238.20
+Its not vul for reverse lookup
 
