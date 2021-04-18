@@ -1,4 +1,4 @@
-it is used to lookup dns host using socket progreamming it easy to use<br>
+it is used to lookup dns host using socket program it easy to use<br>
 Usage:-  python .\dns.py -H filename (or) hostname<br>
 <br>
 Result: -<br>
