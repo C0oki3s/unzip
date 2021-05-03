@@ -5,7 +5,7 @@ def ask_values(prompt, input_msg):
     choices = []
     print(f"{prompt} (press <ENTER> when finished)")
     while True:
-        choice = input(input_msg)
+        choice = raw_input(input_msg) #input("") is vulnerable to code exec
         if choice:
             choices.append(choice)
         else:
