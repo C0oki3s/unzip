@@ -4,7 +4,7 @@ import argparse
 
 
 parser = argparse.ArgumentParser()  
-parser.add_argument('-o', '--oprating_sys', help="Methion ur OS")   
+parser.add_argument('-o', '--oprating_sys', help="Mention ur OS")   
 args = parser.parse_args() 
 
 
