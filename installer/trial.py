@@ -4,7 +4,7 @@ import argparse
 
 
 parser = argparse.ArgumentParser()  
-parser.add_argument('-o', '--oprating_sys', help="Mention ur OS")   
+parser.add_argument('-o', '--oprating_sys', help="Mention ur OS(Ex:- if windows -o win (or) windows || if Linux -o unix (or) -o kali (or) -o ubuntu)")   
 args = parser.parse_args() 
 
 
